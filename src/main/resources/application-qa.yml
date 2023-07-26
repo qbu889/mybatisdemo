@@ -1,0 +1,13 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 300KB
+      max-request-size: 300KB
+#document:
+#  uploadPath: /uploadFile
+server:
+  port: 7788
+  servlet:
+    encoding:
+      force-response: true
+#  imgPath: http://localhost:80/uploadFile
